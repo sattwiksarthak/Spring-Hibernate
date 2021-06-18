@@ -1,0 +1,5 @@
+package com.sattwik.springdemo;
+
+public class SportConfig {
+
+}

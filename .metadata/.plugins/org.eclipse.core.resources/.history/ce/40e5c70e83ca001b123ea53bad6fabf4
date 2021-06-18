@@ -1,0 +1,11 @@
+package com.sattwik.springdemo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public void getDailyWorkout() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

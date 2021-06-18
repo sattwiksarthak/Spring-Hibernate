@@ -1,0 +1,22 @@
+package com.sattwik.springdemo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.sattwik.springdemo")
+public class SportConfig {
+	
+	// define a bean for our sadFortuneService
+	@Bean
+	public FortuneService sadFortuneService() {
+		return new SadFortuneService();
+	}
+	
+	// define a bean for our swimCoach and inject dependency
+	@Bean
+	public Coach swimCoach() {
+		return new SwimCoach(sadFortuneService());
+	}
+}

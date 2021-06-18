@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/sattwik/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1887057275.index
+3966213612.index
+557173393.index
+3811779065.index
+3886229927.index
+3720173385.index
+976086834.index
